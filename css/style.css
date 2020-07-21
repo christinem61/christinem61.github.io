@@ -53,7 +53,7 @@ p {
 }
 .about-desc>p{
     margin-bottom: 2em;
-    font-weight: 700px;
+    font-weight: bolder;
     color: black;
     font-family: 'Montserrat', sans-serif;
 }
