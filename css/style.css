@@ -47,7 +47,7 @@ a {
     text-decoration: none !important; }
 
 p {
-    margin-bottom: 1.5em;
+    /*margin-bottom: 1.5em;*/
     color: black;
     font-family: 'Montserrat', sans-serif;
 }
