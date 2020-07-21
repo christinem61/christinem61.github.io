@@ -47,12 +47,12 @@ a {
     text-decoration: none !important; }
 
 p {
-    /*margin-bottom: 1.5em;*/
+    margin-bottom: 5px;
     color: black;
     font-family: 'Montserrat', sans-serif;
 }
 .about-desc>p{
-    font-size: 20px;
+    font-size: 15px;
     color: black;
     font-family: 'Montserrat', sans-serif;
 }
