@@ -525,6 +525,9 @@ margin-left: 10px;}
   font-weight: 400;
 font-family: "Montserrat", Georgia, serif;}
 
+.socials:hover{
+  color: lightskyblue;
+}
 .hire {
   padding: 2em;
   background: #f9bf3f; }
