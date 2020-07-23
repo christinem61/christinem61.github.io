@@ -28,6 +28,12 @@ canvas {
   top: 0;
   left: 0;
 }
+.fa-linkedin:hover, .fa-envelope:hover, .fa-github:hover{
+  color: #2c98f0 !important;
+}
+#colorlib-logo>a:hover, .github-corner:hover{
+  color: #2c98f0 !important;
+}
 a {
   color: #2c98f0;
   -webkit-transition: 0.5s;
