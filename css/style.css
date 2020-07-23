@@ -31,9 +31,9 @@ canvas {
 .fa-linkedin:hover, .fa-envelope:hover, .fa-github:hover{
   color: lightblue;
 }
-/*#cards>div>a:hover{
+.card:hover{
   box-shadow: 0 5px 15px black;
-}*/
+}
 a {
   color: #2c98f0;
   -webkit-transition: 0.5s;
