@@ -34,6 +34,9 @@ canvas {
 #colorlib-logo>a:hover, .github-corner:hover{
   color: #2c98f0 !important;
 }
+.resume:hover{
+  transform: scale(0.8)
+}
 a {
   color: #2c98f0;
   -webkit-transition: 0.5s;
