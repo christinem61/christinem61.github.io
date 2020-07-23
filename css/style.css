@@ -28,6 +28,14 @@ canvas {
   top: 0;
   left: 0;
 }
+#cards>div{
+  transition: box-shadow .3s;
+  border-radius:10px;
+  border: 1px solid #ccc;
+}
+#cards>div:hover{
+  box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
 a {
   color: #2c98f0;
   -webkit-transition: 0.5s;
