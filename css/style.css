@@ -518,7 +518,7 @@ margin-left: 10px;}
   font-weight: 400;
 font-family: "Montserrat", Georgia, serif;}
 
-.socials:hover{
+.socials>div>p>a:hover{
   color: lightskyblue;
 }
 .hire {
