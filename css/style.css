@@ -28,7 +28,7 @@ canvas {
   top: 0;
   left: 0;
 }
-#cards>div:hover{
+#cards>div>div:hover{
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
 }
 a {
