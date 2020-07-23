@@ -28,9 +28,9 @@ canvas {
   top: 0;
   left: 0;
 }
-#cards>div>a:hover{
+/*#cards>div>a:hover{
   box-shadow: 0 5px 15px black;
-}
+}*/
 a {
   color: #2c98f0;
   -webkit-transition: 0.5s;
