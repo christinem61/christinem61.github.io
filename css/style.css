@@ -28,6 +28,9 @@ canvas {
   top: 0;
   left: 0;
 }
+.fa-linkedin:hover, .fa-envelope:hover, .fa-github:hover{
+  color: lightblue;
+}
 /*#cards>div>a:hover{
   box-shadow: 0 5px 15px black;
 }*/
@@ -518,9 +521,6 @@ margin-left: 10px;}
   font-weight: 400;
 font-family: "Montserrat", Georgia, serif;}
 
-.socials>div>p>a:hover{
-  color: lightskyblue;
-}
 .hire {
   padding: 2em;
   background: #f9bf3f; }
