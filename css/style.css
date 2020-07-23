@@ -28,8 +28,8 @@ canvas {
   top: 0;
   left: 0;
 }
-.animate-box:hover{
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
+#cards>div:hover{
+  box-shadow: 0 5px 15px black;
 }
 a {
   color: #2c98f0;
