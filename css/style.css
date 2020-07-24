@@ -112,7 +112,7 @@ figure {
   width: 300px;
   position: fixed;
   z-index: 1001;
-    background-color: #FFA48e;                                            /*************************/
+    background-color: #FFCDC0;                                            /*************************/
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
@@ -125,7 +125,7 @@ figure {
       -o-transform: translateX(-300px);
       transform: translateX(-300px);
       padding-top: 4em;
-	  background-color: #FFa48e;                                                /**************/
+	  background-color: #FFCDC0;                                                /**************/
         height: auto;
       } }
   #colorlib-aside .author-img {
@@ -406,7 +406,7 @@ body.offcanvas {
     -o-transform: translateX(0);
     transform: translateX(0);
     width: 300px;
-    background-color: #FFA48E;                                                                                  /********************************************/
+    background-color: #FFCDC0;                                                                                  /********************************************/
     z-index: 999;
     position: fixed; }
   body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
@@ -649,7 +649,7 @@ font-family: "Montserrat", Georgia, serif;}
   position: absolute;
   display: block;
   width: 4px;
-  background: #ffa483;                                        /******************/
+  background: #FFCDC0;                                        /******************/
   top: 20px;
   bottom: 20px;
   margin-left: 29px; }
@@ -698,7 +698,7 @@ font-family: "Montserrat", Georgia, serif;}
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label {
   position: relative;
-  background: #FFA48E;                                                /**************/
+  background: #FFCDC0;                                                /**************/
   padding: 1.5em;
   margin-left: 60px;
   -webkit-background-clip: padding-box;
