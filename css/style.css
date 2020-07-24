@@ -1,10 +1,10 @@
 /******************************   GENERAL   ******************************/
-/*body {
+body {
   font-family: "Quicksand", Arial, sans-serif;
   font-size: 15px;
   line-height: 1.8;
   color: rgba(0, 0, 0, 0.7); 
-}*/
+}
 @media screen and (max-width: 992px) {
   body {
     font-size: 16px;
