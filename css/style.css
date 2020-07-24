@@ -503,7 +503,7 @@ font-family: "Montserrat", Georgia, serif;}
 
 .hire {
   padding: 2em;
-  background: #FFA48E; }
+  background: #FFa48e; }
   
   .hire h2 {
     line-height: 1.5; }
@@ -649,7 +649,7 @@ font-family: "Montserrat", Georgia, serif;}
   position: absolute;
   display: block;
   width: 4px;
-  background: #FFCDC0;                                        /******************/
+  background: #FFa48e;                                        /******************/
   top: 20px;
   bottom: 20px;
   margin-left: 29px; }
