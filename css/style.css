@@ -499,14 +499,17 @@ margin-left: 10px;}
 .about-desc h1 {
   font-size: 38px;
   font-weight: 400;
-font-family: "Montserrat", Georgia, serif;}
+font-family: "Montserrat", Georgia, serif;
+}
 
 .hire {
   padding: 2em;
-  background: #FFa48e; }
+  background: #FFCDC0; 
+}
   
-  .hire h2 {
-    line-height: 1.5; }
+.hire h2 {
+    line-height: 1.5;
+}
 
     /*
   .hire .btn-hire {
@@ -628,21 +631,24 @@ font-family: "Montserrat", Georgia, serif;}
 
 .timeline-centered {
   position: relative;
-  margin-bottom: 30px; }
+  margin-bottom: 30px; 
+}
 
 .timeline-centered:before, .timeline-centered:after {
   content: " ";
-  display: table; }
+  display: table; 
+}
 
 .timeline-centered:after {
-  clear: both; }
+  clear: both; 
+}
 
-.timeline-centered:before, .timeline-centered:after {
+/*.timeline-centered:before, .timeline-centered:after {
   content: " ";
-  display: table; }
-
+  display: table; 
+}
 .timeline-centered:after {
-  clear: both; }
+  clear: both; }*/
 
 .timeline-centered:before {
   content: '';
@@ -759,24 +765,27 @@ font-family: "Montserrat", Georgia, serif;}
   .services.color-2 {
     border-bottom: 2px solid #ec5453; }
     .services.color-2 .icon2 i {
-      color: #ec5453; }
-  .services.color-3 {
-    border-bottom: 2px solid #f9bf3f; }
-    .services.color-3 .icon2 i {
-      color: #f9bf3f; }
-  .services.color-4 {
-    border-bottom: 2px solid #a84cb8; }
-    .services.color-4 .icon2 i {
-      color: #a84cb8; }
-  .services.color-5  {
-    border-bottom: 2px solid #2fa499; }
-
-  .services.color-5 .icon2 i {
-    color: #2fa499; }
-  .services.color-6 {
-    border-bottom: 2px solid #4054b2; }
-.services.color-6 .icon2 i {
-    color: #4054b2; }
+      color: #ec5453; 
+    }
+.services.color-3 {
+    border-bottom: 2px solid #f9bf3f; 
+}
+.services.color-3 .icon2 i {
+      color: #f9bf3f; 
+}
+.services.color-4 {
+    border-bottom: 2px solid #a84cb8; 
+}
+.services.color-4 .icon2 i {
+      color: #a84cb8; 
+}
+.services.color-5  {
+    border-bottom: 2px solid #2fa499; 
+}
+.services.color-5 .icon2 i {
+    color: #2fa499; 
+}
+ 
 
 .services {
   margin-bottom: 80px;
@@ -914,8 +923,6 @@ font-family: "Montserrat", Georgia, serif;}
     .progress-bar.color-2 span {
       color: #ec5453;
 padding-top: 2px;}
-
-
   .progress-bar.color-3 {
     background: #f9bf3f; }
     .progress-bar.color-3:after {
@@ -950,6 +957,7 @@ padding-top: 2px;}
 .progress-wrap h3{
 	padding-bottom: 14px;
 }
+/*
 .colorlib-feature {
   text-align: left;
   width: 100%;
@@ -999,7 +1007,6 @@ padding-top: 2px;}
     @media screen and (max-width: 1200px) {
       .colorlib-feature.colorlib-feature-sm .colorlib-icon i {
         font-size: 28px; } }
-/*
 .blog-entry {
   width: 100%;
   float: left;
@@ -1057,7 +1064,7 @@ padding-top: 2px;}
     -ms-transform: scale(1.1);
     -o-transform: scale(1.1);
     transform: scale(1.1); }
-*/
+
 .work-menu span {
   margin-left: 10px; }
   .work-menu span:first-child {
@@ -1066,6 +1073,7 @@ padding-top: 2px;}
     color: #000; }
     .work-menu span a.active {
       color: #2c98f0; }
+*/
 
 .project {
   background-size: cover;
