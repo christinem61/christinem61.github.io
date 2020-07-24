@@ -36,6 +36,18 @@ body {
 .fa-linkedin:hover, .fa-envelope:hover, .fa-github:hover, #colorlib-logo>a:hover{
   color: #2c98f0 !important;
 }
+#colorlib-logo>a:hover{
+  transform: scale(1.1) !important;
+}
+.git:hover, .octo-arm:hover{
+  color: #FFCDC0 !important;
+}
+.resume:hover{
+  transform: scale(0.92) !important;
+}
+.services:hover{
+  box-shadow: 0 0 20px darkgray !important; 
+}
 canvas {
   background: #EEE;
   position: fixed;
