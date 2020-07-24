@@ -22,13 +22,13 @@ canvas {
   top: 0;
   left: 0;
 }}
-/*
+
 canvas {
   background: #EEE;
   position: fixed;
   top: 0;
   left: 0;
-}*/
+}
 a {
   color: #2c98f0;
   -webkit-transition: 0.5s;
@@ -47,13 +47,13 @@ p {
     font-size: 15px;
     color: black;
     font-family: 'Montserrat', sans-serif;
-}
-x{              /**DONT GET RID OF THIS***/
+}/*
+x{             
     margin-bottom: 1.5em;
     background-color:darkkhaki;
     color: black;
     backface-visibility: visible;
-}
+}*/
 
 h1, h4, h5, h6 {
   color: #000;
