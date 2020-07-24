@@ -1268,7 +1268,7 @@ align-items: stretch;}
   @media screen and (max-width: 768px) {
     #map {
       height: 200px; } }
-*/
+
 .colorlib-bg-color {
   background: #fafafa;
   position: relative; }
@@ -1305,7 +1305,7 @@ align-items: stretch;}
         background: #2c98f0;
         color: #fff;
         border: 1px solid #2c98f0 !important; }
-/*
+
 .btn {
   margin-right: 4px;
   margin-bottom: 4px;
@@ -1418,7 +1418,7 @@ align-items: stretch;}
   .btn-outline:hover, .btn-outline:focus, .btn-outline:active {
     -webkit-box-shadow: none;
     box-shadow: none; }
-*/
+
 
 .form-control {
   -webkit-appearance: none;
@@ -1445,7 +1445,7 @@ align-items: stretch;}
     box-shadow: none;
     border-color: transparent;
     background: #f0f0f0; }
-
+*/
 #message {
   height: 130px; }
 
