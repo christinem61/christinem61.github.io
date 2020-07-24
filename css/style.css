@@ -112,7 +112,7 @@ figure {
   width: 300px;
   position: fixed;
   z-index: 1001;
-    background-color: #E5CCFF;                                            /*************************/
+    background-color: #FFA48e;                                            /*************************/
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
@@ -125,7 +125,7 @@ figure {
       -o-transform: translateX(-300px);
       transform: translateX(-300px);
       padding-top: 4em;
-	  background-color: #E5CCFF;                                                /**************/
+	  background-color: #FFa48e;                                                /**************/
         height: auto;
       } }
   #colorlib-aside .author-img {
@@ -649,7 +649,7 @@ font-family: "Montserrat", Georgia, serif;}
   position: absolute;
   display: block;
   width: 4px;
-  background: #f9bf3f;
+  background: #ffa483;                                        /******************/
   top: 20px;
   bottom: 20px;
   margin-left: 29px; }
@@ -683,9 +683,9 @@ font-family: "Montserrat", Georgia, serif;}
   .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon i {
     color: #fff; }
   .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.color-2 {
-    background: #ec5453; }
+    background: #ec5453; }/*
   .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.color-3 {
-    background: #f9bf3f; }
+    background: #f9bf3f; }*/
   .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.color-4 {
     background: #a84cb8; }
   .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.color-5 {
@@ -698,7 +698,7 @@ font-family: "Montserrat", Georgia, serif;}
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label {
   position: relative;
-  background: #f9bf3f;
+  background: #FFA48E;                                                /**************/
   padding: 1.5em;
   margin-left: 60px;
   -webkit-background-clip: padding-box;
@@ -1310,7 +1310,7 @@ align-items: stretch;}
         background: #2c98f0;
         color: #fff;
         border: 1px solid #2c98f0 !important; }
-
+/*
 .btn {
   margin-right: 4px;
   margin-bottom: 4px;
@@ -1423,6 +1423,7 @@ align-items: stretch;}
   .btn-outline:hover, .btn-outline:focus, .btn-outline:active {
     -webkit-box-shadow: none;
     box-shadow: none; }
+*/
 
 .form-control {
   -webkit-appearance: none;
