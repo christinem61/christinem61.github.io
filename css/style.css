@@ -1,4 +1,4 @@
-/**********   GENERAL   **********/
+/******************************   GENERAL   ******************************/
 @font-face {
   font-family: 'icomoon';
   src: url("../fonts/icomoon/icomoon.eot?srf3rx");
@@ -49,11 +49,6 @@ p {
   color: black;
   font-family: 'Montserrat', sans-serif;
 }
-.about-desc>p{
-  font-size: 15px;
-  color: black;
-  font-family: 'Montserrat', sans-serif;
-}
 h1, h4, h5, h6 {
   color: #000;
   font-family: "Playfair Display", Georgia, serif;
@@ -81,8 +76,59 @@ h3{
   overflow: hidden;
   position: relative;
 }
+.container-wrap {
+  max-width: 1170px;
+  margin: 0 auto; 
+}
+@media screen and (max-width: 480px) {
+  .col-xxs-12 {
+    float: none;
+    width: 100%; 
+  } 
+}
+.row-bottom-padded-lg {
+  padding-bottom: 7em; 
+}
+@media screen and (max-width: 768px) {
+  .row-bottom-padded-lg {
+    padding-bottom: 1em; 
+  } 
+}
+.row-bottom-padded-md {
+  padding-bottom: 3em; 
+}
+@media screen and (max-width: 768px) {
+  .row-bottom-padded-md, .row-bottom-padded-sm {
+    padding-bottom: 1em; 
+  } 
+}
+.row-bottom-padded-sm {
+  padding-bottom: 1em; 
+}
+.row-pt-md {
+  padding-top: 3em; 
+}
+.col-padding {
+  padding: 10px !important; 
+}
+.js .animate-box {
+  opacity: 0; 
+}
+.colorlib-experience, .colorlib-skills, .colorlib-about{
+  padding-top: 5em;
+  padding-bottom: 0em;
+  clear: both;
+  width: 100%;
+  display: block; 
+}
+@media screen and (max-width: 768px) {
+  .colorlib-experience,.colorlib-skills,.colorlib-about{
+    padding-top: 2em;
+    padding-bottom: 0em; 
+  } 
+}
 
-/**********   Side Bar/Nav Bar   **********/
+/******************************   Side Bar   ******************************/
 #colorlib-aside {
   padding-top: 3em;
   padding-bottom: 1px;
@@ -101,6 +147,12 @@ h3{
 	  background-color: #FFCDC0;                                                /**************/
     height: auto;
   } 
+}
+.author-img {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative; 
 }
 #colorlib-aside .author-img {
   width: 150px;
@@ -195,10 +247,6 @@ h3{
   visibility: visible;
   transform: scaleX(1); 
 }
-.container-wrap {
-  max-width: 1170px;
-  margin: 0 auto; 
-}
 #colorlib-main {
   width: calc(100% - 300px);
   float: right;
@@ -224,6 +272,8 @@ body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
   top: 0;
   transform: translateX(300px); 
 }
+
+/*******************************   Contact Me   *******************************/
 .colorlib-narrow-content {
   padding: 0 4.5em; 
 }
@@ -233,30 +283,18 @@ body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
     padding: 0 1em; 
   } 
 }
-.colorlib-experience, .colorlib-skills, .colorlib-about{
-  padding-top: 5em;
-  padding-bottom: 0em;
-  clear: both;
-  width: 100%;
-  display: block; 
-}
-@media screen and (max-width: 768px) {
-  .colorlib-experience,.colorlib-skills,.colorlib-about{
-    padding-top: 2em;
-    padding-bottom: 0em; 
-  } 
-}
-.author-img {
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  position: relative; 
+.about-desc>p{
+  font-size: 15px;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
 }
 .about-desc h1 {
   font-size: 38px;
   font-weight: 400;
   font-family: "Montserrat", Georgia, serif;
 }
+
+/*****************************   Resume   ******************************/
 .hire {
   padding: 2em;
   background: #FFCDC0; 
@@ -265,7 +303,7 @@ body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
   line-height: 1.5;
 }
 
-/**********   Timeline of Events   **********/
+/******************************   Timeline of Events ******************************/
 .timeline-centered {
   position: relative;
   margin-bottom: 30px; 
@@ -364,7 +402,7 @@ body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
   font-size: 16px;
 }
 
-/**********   Project Cards   **********/
+/******************************   Project Cards   ******************************/
 .services {
   margin-bottom: 30px;
   padding: 1.5em;
@@ -513,7 +551,7 @@ body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
   border-color: #4054b2 transparent transparent transparent; 
 }
 
-/**********    Skills    **********/
+/******************************    Skills    ******************************/
 .progress-wrap h3 {
   font-size: 16px;
   font-family: "Quicksand", Arial, sans-serif;
@@ -599,7 +637,7 @@ body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
 	padding-bottom: 14px;
 }
 
-
+/********************************   Nav bar on side bar   ******************************/
 .colorlib-nav-toggle {
   cursor: pointer;
   text-decoration: none; 
@@ -682,38 +720,4 @@ body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
     opacity: 1;
     visibility: visible; 
   } 
-}
-@media screen and (max-width: 480px) {
-  .col-xxs-12 {
-    float: none;
-    width: 100%; 
-  } 
-}
-.row-bottom-padded-lg {
-  padding-bottom: 7em; 
-}
-@media screen and (max-width: 768px) {
-  .row-bottom-padded-lg {
-    padding-bottom: 1em; 
-  } 
-}
-.row-bottom-padded-md {
-  padding-bottom: 3em; 
-}
-@media screen and (max-width: 768px) {
-  .row-bottom-padded-md, .row-bottom-padded-sm {
-    padding-bottom: 1em; 
-  } 
-}
-.row-bottom-padded-sm {
-  padding-bottom: 1em; 
-}
-.row-pt-md {
-  padding-top: 3em; 
-}
-.col-padding {
-  padding: 10px !important; 
-}
-.js .animate-box {
-  opacity: 0; 
 }
