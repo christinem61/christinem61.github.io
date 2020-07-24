@@ -1,11 +1,11 @@
 /******************************   GENERAL   ******************************/
-@font-face {
+/*@font-face {
   font-family: 'icomoon';
   src: url("../fonts/icomoon/icomoon.eot?srf3rx");
   src: url("../fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"), url("../fonts/icomoon/icomoon.woff?srf3rx") format("woff"), url("../fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
   font-weight: normal;
   font-style: normal; 
-}
+}*/
 body {
   font-family: "Quicksand", Arial, sans-serif;
   font-weight: 400;
@@ -504,44 +504,7 @@ body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
   font-size: 16px;
   font-weight: 700;
   text-transform: uppercase; 
-}/*
-.services.color-2 .icon {
-  background: #ec5453; 
 }
-.services.color-2 .icon:before {
-  border-color: transparent transparent #ec5453 transparent; 
-}
-.services.color-2 .icon:after {
-  border-color: #ec5453 transparent transparent transparent; 
-}
-.services.color-3 .icon {
-  background: #f9bf3f; 
-}
-.services.color-3 .icon:before {
-  border-color: transparent transparent #f9bf3f transparent; 
-}
-.services.color-3 .icon:after {
-  border-color: #f9bf3f transparent transparent transparent; 
-}
-.services.color-4 .icon {
-  background: #a84cb8; 
-}
-.services.color-4 .icon:before {
-  border-color: transparent transparent #a84cb8 transparent; 
-}
-.services.color-4 .icon:after {
-  border-color: #a84cb8 transparent transparent transparent; 
-}
-.services.color-5 .icon {
-  background: #2fa499; 
-}
-.services.color-5 .icon:before {
-  border-color: transparent transparent #2fa499 transparent; 
-}
-.services.color-5 .icon:after {
-  border-color: #2fa499 transparent transparent transparent; 
-}
-*/
 
 /******************************    Skills    ******************************/
 .progress-wrap h3 {
