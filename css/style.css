@@ -111,7 +111,7 @@ figure {
   width: 300px;
   position: fixed;
   z-index: 1001;
-    background-color: #E5CCFF;   
+    background-color: #E5CCFF;                                            /*************************/
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
@@ -405,7 +405,7 @@ body.offcanvas {
     -o-transform: translateX(0);
     transform: translateX(0);
     width: 300px;
-    background-color: #f9bf3f;
+    background-color: #E5CCFF;                                                                                  /************************/
     z-index: 999;
     position: fixed; }
   body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
