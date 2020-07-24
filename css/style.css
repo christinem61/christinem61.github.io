@@ -26,13 +26,14 @@ body {
 .moreProjs .fa-plus{
   color:black;
 }
-.fa-plus:hover{
+.fa-plus:hover, .fa-external-link:hover{
   transform: scale(1.65);
+  color: #2c98f0 !important;
 }
 .fa-external-link{
   color:black !important;
 }
-.fa-linkedin:hover, .fa-envelope:hover, .fa-github:hover, #colorlib-logo>a:hover, .fa-external-link:hover{
+.fa-linkedin:hover, .fa-envelope:hover, .fa-github:hover, #colorlib-logo>a:hover{
   color: #2c98f0 !important;
 }
 canvas {
