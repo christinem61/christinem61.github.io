@@ -48,13 +48,12 @@ p {
     color: black;
     font-family: 'Montserrat', sans-serif;
 }
-/*
-x{
+x{              /**DONT GET RID OF THIS***/
     margin-bottom: 1.5em;
     background-color:darkkhaki;
     color: black;
     backface-visibility: visible;
-}*/
+}
 
 h1, h4, h5, h6 {
   color: #000;
