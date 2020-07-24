@@ -946,18 +946,7 @@ padding-top: 2px;}
       background: #ec5453; }
     .progress-bar.color-7 span {
       color: #ec5453; }
-  .progress-bar.color-8 {
-    background: #f9bf3f; }
-    .progress-bar.color-8:after {
-      background: #f9bf3f; }
-    .progress-bar.color-8 span {
-      color: #f9bf3f; }
-  .progress-bar.color-9 {
-    background: #a84cb8; }
-    .progress-bar.color-9:after {
-      background: #a84cb8; }
-    .progress-bar.color-9 span {
-      color: #a84cb8; }
+  
 .progress-wrap h3{
 	padding-bottom: 14px;
 }
@@ -1010,7 +999,7 @@ padding-top: 2px;}
     @media screen and (max-width: 1200px) {
       .colorlib-feature.colorlib-feature-sm .colorlib-icon i {
         font-size: 28px; } }
-
+/*
 .blog-entry {
   width: 100%;
   float: left;
@@ -1068,7 +1057,7 @@ padding-top: 2px;}
     -ms-transform: scale(1.1);
     -o-transform: scale(1.1);
     transform: scale(1.1); }
-
+*/
 .work-menu span {
   margin-left: 10px; }
   .work-menu span:first-child {
