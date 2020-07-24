@@ -600,53 +600,56 @@ body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
 
 .colorlib-nav-toggle {
   cursor: pointer;
-  text-decoration: none; }
-  .colorlib-nav-toggle.active i::before, .colorlib-nav-toggle.active i::after {
-    background: #000; }
-  .colorlib-nav-toggle.dark.active i::before, .colorlib-nav-toggle.dark.active i::after {
-    background: #000; }
-  .colorlib-nav-toggle:hover, .colorlib-nav-toggle:focus, .colorlib-nav-toggle:active {
-    outline: none;
-    border-bottom: none !important; }
-  .colorlib-nav-toggle i {
-    position: relative;
-    display: -moz-inline-stack;
-    display: inline-block;
-    zoom: 1;
-    *display: inline;
-    width: 30px;
-    height: 2px;
-    color: #000;
-    font: bold 14px/.4 Helvetica;
-    text-transform: uppercase;
-    text-indent: -55px;
-    background: #000;
-    -webkit-transition: all .2s ease-out;
-    -o-transition: all .2s ease-out;
-    transition: all .2s ease-out; }
-    .colorlib-nav-toggle i::before, .colorlib-nav-toggle i::after {
-      content: '';
-      width: 30px;
-      height: 2px;
-      background: #000;
-      position: absolute;
-      left: 0;
-      -webkit-transition: 0.2s;
-      -o-transition: 0.2s;
-      transition: 0.2s; }
-  .colorlib-nav-toggle.dark i {
-    position: relative;
-    color: #000;
-    background: #000;
-    -webkit-transition: all .2s ease-out;
-    -o-transition: all .2s ease-out;
-    transition: all .2s ease-out; }
+  text-decoration: none; 
+}
+.colorlib-nav-toggle.active i::before, .colorlib-nav-toggle.active i::after, .colorlib-nav-toggle.dark.active i::before, .colorlib-nav-toggle.dark.active i::after {
+  background: #000; 
+}
+.colorlib-nav-toggle:hover, .colorlib-nav-toggle:focus, .colorlib-nav-toggle:active {
+  outline: none;
+  border-bottom: none !important; 
+}
+.colorlib-nav-toggle i {
+  position: relative;
+  /*display: -moz-inline-stack;*/
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+  width: 30px;
+  height: 2px;
+  color: #000;
+  font: bold 14px/.4 Helvetica;
+  text-transform: uppercase;
+  text-indent: -55px;
+  background: #000;
+    /*-webkit-transition: all .2s ease-out;
+    -o-transition: all .2s ease-out;*/
+  transition: all .2s ease-out; 
+}
+.colorlib-nav-toggle i::before, .colorlib-nav-toggle i::after {
+  content: '';
+  width: 30px;
+  height: 2px;
+  background: #000;
+  position: absolute;
+  left: 0;
+    /*  -webkit-transition: 0.2s;
+      -o-transition: 0.2s;*/
+  transition: 0.2s; 
+}
+.colorlib-nav-toggle.dark i {
+  position: relative;
+  color: #000;
+  background: #000;
+   /* -webkit-transition: all .2s ease-out;
+    -o-transition: all .2s ease-out;*/
+  transition: all .2s ease-out; }
     .colorlib-nav-toggle.dark i::before, .colorlib-nav-toggle.dark i::after {
-      background: #000;
-      -webkit-transition: 0.2s;
-      -o-transition: 0.2s;
-      transition: 0.2s; }
-
+  background: #000;
+     /* -webkit-transition: 0.2s;
+      -o-transition: 0.2s;*/
+  transition: 0.2s; 
+}
 .colorlib-nav-toggle i::before {
   top: -7px; 
 }
@@ -664,18 +667,18 @@ body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
 }
 .colorlib-nav-toggle.active i::before {
   top: 0;
-  -webkit-transform: rotateZ(45deg);
+  /*-webkit-transform: rotateZ(45deg);
   -moz-transform: rotateZ(45deg);
   -ms-transform: rotateZ(45deg);
-  -o-transform: rotateZ(45deg);
+  -o-transform: rotateZ(45deg);*/
   transform: rotateZ(45deg); 
 }
 .colorlib-nav-toggle.active i::after {
   bottom: 0;
-  -webkit-transform: rotateZ(-45deg);
+  /*-webkit-transform: rotateZ(-45deg);
   -moz-transform: rotateZ(-45deg);
   -ms-transform: rotateZ(-45deg);
-  -o-transform: rotateZ(-45deg);
+  -o-transform: rotateZ(-45deg);*/
   transform: rotateZ(-45deg); 
 }
 .colorlib-nav-toggle {
@@ -687,8 +690,8 @@ body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
   opacity: 1;
   visibility: hidden;
   padding: 20px;
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
+ /* -webkit-transition: 0.5s;
+  -o-transition: 0.5s;*/
   transition: 0.5s; 
 }
 @media screen and (max-width: 768px) {
@@ -715,25 +718,25 @@ body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
   padding-bottom: 3em; 
 }
 @media screen and (max-width: 768px) {
-  .row-bottom-padded-md {
+  .row-bottom-padded-md, .row-bottom-padded-sm {
     padding-bottom: 1em; 
   } 
 }
-
 .row-bottom-padded-sm {
   padding-bottom: 1em; 
 }
+/*
 @media screen and (max-width: 768px) {
   .row-bottom-padded-sm {
     padding-bottom: 1em; 
   } 
-}
-
+}*/
 .row-pt-md {
-  padding-top: 3em; }
-
+  padding-top: 3em; 
+}
 .col-padding {
-  padding: 10px !important; }
-
+  padding: 10px !important; 
+}
 .js .animate-box {
-  opacity: 0; }
+  opacity: 0; 
+}
