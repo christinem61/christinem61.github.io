@@ -173,10 +173,6 @@ h3{
   text-transform: uppercase; 
 }
 #colorlib-aside #colorlib-logo {
-  /*text-align: right;
-  font-weight: 700;
-  font-size: 30px;
-  display: block; */
   margin-bottom: .5em;
   width: 100%; 
 }
@@ -530,9 +526,9 @@ body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
 .services.color-4 .icon {
   background: #a84cb8; 
 }
-.services.color-4 .icon:before {
+/*.services.color-4 .icon:before {
   border-color: transparent transparent #a84cb8 transparent; 
-}
+}*/
 .services.color-4 .icon:after {
   border-color: #a84cb8 transparent transparent transparent; 
 }
@@ -542,18 +538,9 @@ body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
 .services.color-5 .icon:before {
   border-color: transparent transparent #2fa499 transparent; 
 }
-.services.color-5 .icon:after {
+/*.services.color-5 .icon:after {
   border-color: #2fa499 transparent transparent transparent; 
-}
-.services.color-6 .icon {
-  background: #4054b2; 
-}
-.services.color-6 .icon:before {
-  border-color: transparent transparent #4054b2 transparent; 
-}
-.services.color-6 .icon:after {
-  border-color: #4054b2 transparent transparent transparent; 
-}
+}*/
 
 /******************************    Skills    ******************************/
 .progress-wrap h3 {
