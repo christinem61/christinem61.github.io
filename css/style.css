@@ -22,12 +22,13 @@ canvas {
   top: 0;
   left: 0;
 }}
+/*
 canvas {
   background: #EEE;
   position: fixed;
   top: 0;
   left: 0;
-}
+}*/
 a {
   color: #2c98f0;
   -webkit-transition: 0.5s;
@@ -47,13 +48,13 @@ p {
     color: black;
     font-family: 'Montserrat', sans-serif;
 }
-/*
+
 x{
     margin-bottom: 1.5em;
     background-color:darkkhaki;
     color: black;
     backface-visibility: visible;
-}*/
+}
 
 h1, h4, h5, h6 {
   color: #000;
@@ -562,7 +563,6 @@ font-family: "Montserrat", Georgia, serif;}
   margin: 0 0 15px 0;
   font-size: 0.9em
 }
-*/
 .no-image .project-info {
   position: relative;
   margin: 0;
@@ -573,6 +573,7 @@ font-family: "Montserrat", Georgia, serif;}
 #more-projects {
   display: none
 }
+*/
 
 .panel-heading a {
   padding: 20px 25px;
