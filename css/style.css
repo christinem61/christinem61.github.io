@@ -3,25 +3,29 @@
   src: url("../fonts/icomoon/icomoon.eot?srf3rx");
   src: url("../fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"), url("../fonts/icomoon/icomoon.woff?srf3rx") format("woff"), url("../fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
   font-weight: normal;
-  font-style: normal; }
+  font-style: normal; 
+}
 body {
   font-family: "Quicksand", Arial, sans-serif;
   font-weight: 400;
   font-size: 15px;
   line-height: 1.8;
-  color: rgba(0, 0, 0, 0.7); }
+  color: rgba(0, 0, 0, 0.7); 
+}
 @media screen and (max-width: 992px) {
-    body {
-      font-size: 16px; } 
-      h2{
-          text-align: center;
-      }
-canvas {
-  background: #EEE;
-  position: fixed;
-  top: 0;
-  left: 0;
-}}
+  body {
+    font-size: 16px;
+  } 
+  h2{
+    text-align: center;
+  }
+  canvas {
+    background: #EEE;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+}
 canvas {
   background: #EEE;
   position: fixed;
@@ -32,43 +36,48 @@ a {
   color: #2c98f0;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
-  transition: 0.5s; }
-  a:hover, a:active, a:focus {
-    color: #2c98f0;
-    outline: none;
-    text-decoration: none !important; }
+  transition: 0.5s;
+}
+a:hover, a:active, a:focus {
+  color: #2c98f0;
+  outline: none;
+  text-decoration: none !important; 
+}
 p {
-    margin-bottom: 13px;
-    color: black;
-    font-family: 'Montserrat', sans-serif;
+  margin-bottom: 13px;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
 }
 .about-desc>p{
-    font-size: 15px;
-    color: black;
-    font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
 }
 h1, h4, h5, h6 {
   color: #000;
   font-family: "Playfair Display", Georgia, serif;
   font-weight: 400;
-  margin: 0 0 30px 0; }
+  margin: 0 0 30px 0; 
+}
 h2{
-    color: #000;
+  color: #000;
   font-family: "Playfair Display", Georgia, serif;
   font-weight: 200;
   margin: 0 0 20px 0;
 }
 h3{
-    color: #000;
+  color: #000;
   font-family: "Playfair Display", Georgia, serif;
   font-weight: 200;
   margin: 0 0 30px 0;
 }
+/*
 figure {
   margin-bottom: 2.5em;
   float: left;
-  width: 100%; }
-  figure figcaption {
+  width: 100%; 
+}
+figure figcaption {
     font-size: 16px;
     width: 80%;
     margin: 20px auto 0px auto;
@@ -78,7 +87,7 @@ figure {
     @media screen and (max-width: 480px) {
       figure figcaption {
         width: 100%; } }
-
+      
 ::-webkit-selection {
   color: #fff;
   background: #2c98f0; }
@@ -86,7 +95,7 @@ figure {
 ::-moz-selection {
   color: #fff;
   background: #2c98f0; }
-
+*/
 ::selection {
   color: #fff;
   background: #2c98f0; }
@@ -707,7 +716,7 @@ font-family: "Montserrat", Georgia, serif;
     .services.color-6 .icon:after {
       border-color: #4054b2 transparent transparent transparent; }
 
-/**** Skills ****/
+/**********    Skills    **********/
 .progress-wrap h3 {
   font-size: 16px;
   font-family: "Quicksand", Arial, sans-serif;
@@ -715,14 +724,12 @@ font-family: "Montserrat", Georgia, serif;
 }
 .progress {
   height: 6px;
-  /*-webkit-box-shadow: none;*/
   box-shadow: none;
   background: #f2f3f7;
   overflow: visible; 
 }
 .progress-bar {
   background: #2c98f0;
-  /*-webkit-box-shadow: none;*/
   box-shadow: none;
   font-size: 12px;
   line-height: 1.2;
@@ -731,9 +738,6 @@ font-family: "Montserrat", Georgia, serif;
   text-align: right;
   position: relative;
   overflow: visible;
-  /*-webkit-border-radius: 8px;
-  -moz-border-radius: 8px;
-  -ms-border-radius: 8px;*/
   border-radius: 8px;
 }
 .progress-bar:after {
@@ -744,11 +748,6 @@ font-family: "Montserrat", Georgia, serif;
   height: 10px;
   content: '';
   background: #2c98f0;
-  /*
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  */
   border-radius: 50%; 
 }
 .progress-bar span {
