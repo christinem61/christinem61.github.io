@@ -1,3 +1,4 @@
+/**********   GENERAL   **********/
 @font-face {
   font-family: 'icomoon';
   src: url("../fonts/icomoon/icomoon.eot?srf3rx");
@@ -264,7 +265,7 @@ body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
   line-height: 1.5;
 }
 
-/********** Timeline of Events **********/
+/**********   Timeline of Events   **********/
 .timeline-centered {
   position: relative;
   margin-bottom: 30px; 
@@ -362,6 +363,7 @@ body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
   filter: alpha(opacity=40);
   font-size: 16px;
 }
+
 /**********   Project Cards   **********/
 .services {
   margin-bottom: 30px;
@@ -611,7 +613,6 @@ body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
 }
 .colorlib-nav-toggle i {
   position: relative;
-  /*display: -moz-inline-stack;*/
   display: inline-block;
   zoom: 1;
   *display: inline;
@@ -622,8 +623,6 @@ body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
   text-transform: uppercase;
   text-indent: -55px;
   background: #000;
-    /*-webkit-transition: all .2s ease-out;
-    -o-transition: all .2s ease-out;*/
   transition: all .2s ease-out; 
 }
 .colorlib-nav-toggle i::before, .colorlib-nav-toggle i::after {
@@ -633,21 +632,15 @@ body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
   background: #000;
   position: absolute;
   left: 0;
-    /*  -webkit-transition: 0.2s;
-      -o-transition: 0.2s;*/
   transition: 0.2s; 
 }
 .colorlib-nav-toggle.dark i {
   position: relative;
   color: #000;
   background: #000;
-   /* -webkit-transition: all .2s ease-out;
-    -o-transition: all .2s ease-out;*/
   transition: all .2s ease-out; }
     .colorlib-nav-toggle.dark i::before, .colorlib-nav-toggle.dark i::after {
   background: #000;
-     /* -webkit-transition: 0.2s;
-      -o-transition: 0.2s;*/
   transition: 0.2s; 
 }
 .colorlib-nav-toggle i::before {
@@ -667,18 +660,10 @@ body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
 }
 .colorlib-nav-toggle.active i::before {
   top: 0;
-  /*-webkit-transform: rotateZ(45deg);
-  -moz-transform: rotateZ(45deg);
-  -ms-transform: rotateZ(45deg);
-  -o-transform: rotateZ(45deg);*/
   transform: rotateZ(45deg); 
 }
 .colorlib-nav-toggle.active i::after {
   bottom: 0;
-  /*-webkit-transform: rotateZ(-45deg);
-  -moz-transform: rotateZ(-45deg);
-  -ms-transform: rotateZ(-45deg);
-  -o-transform: rotateZ(-45deg);*/
   transform: rotateZ(-45deg); 
 }
 .colorlib-nav-toggle {
@@ -690,8 +675,6 @@ body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
   opacity: 1;
   visibility: hidden;
   padding: 20px;
- /* -webkit-transition: 0.5s;
-  -o-transition: 0.5s;*/
   transition: 0.5s; 
 }
 @media screen and (max-width: 768px) {
@@ -725,12 +708,6 @@ body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
 .row-bottom-padded-sm {
   padding-bottom: 1em; 
 }
-/*
-@media screen and (max-width: 768px) {
-  .row-bottom-padded-sm {
-    padding-bottom: 1em; 
-  } 
-}*/
 .row-pt-md {
   padding-top: 3em; 
 }
