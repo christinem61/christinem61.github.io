@@ -98,8 +98,8 @@ figure figcaption {
 */
 ::selection {
   color: #fff;
-  background: #2c98f0; }
-
+  background: #2c98f0; 
+}
 #colorlib-page {
   width: 100%;
   overflow: hidden;
@@ -233,46 +233,55 @@ figure figcaption {
               -o-transform: scaleX(1);*/
   transform: scaleX(1); 
 }
-        #colorlib-aside #colorlib-main-menu ul li.active a {
-          color: #2c98f0; }
-          #colorlib-aside #colorlib-main-menu ul li.active a:after {
-            visibility: visible;
-            -webkit-transform: scaleX(1);
+#colorlib-aside #colorlib-main-menu ul li.active a {
+  color: #2c98f0;
+}
+#colorlib-aside #colorlib-main-menu ul li.active a:after {
+  visibility: visible;
+   /*         -webkit-transform: scaleX(1);
             -moz-transform: scaleX(1);
             -ms-transform: scaleX(1);
-            -o-transform: scaleX(1);
-            transform: scaleX(1); }
+            -o-transform: scaleX(1);*/
+  transform: scaleX(1); 
+}
+/*
+#colorlib-aside .colorlib-footer {
+  font-size: 20px;
+  text-align: center;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.5);
+  padding: 0 20px;
+  width: 100%;
+}
+@media screen and (max-width: 768px) {
   #colorlib-aside .colorlib-footer {
-    font-size: 20px;
-    text-align: center;
-    font-weight: 400;
-    color: rgba(0, 0, 0, 0.5);
-    padding: 0 20px;
-    width: 100%;}
-    @media screen and (max-width: 768px) {
-      #colorlib-aside .colorlib-footer {
-        position: fixed;
-        height: auto;} }
-    #colorlib-aside .colorlib-footer span {
-      display: block;}
-    #colorlib-aside .colorlib-footer ul {
-      padding: 0 20px;
-      margin: 0 0 10px 0; }
-      #colorlib-aside .colorlib-footer ul li {
-        padding: 0 20px;
-        margin: 0 0 10px 0;
-        display: inline;
-        list-style: none; }
+    position: fixed;
+    height: auto;
+  } 
+}
+#colorlib-aside .colorlib-footer span {
+  display: block;
+}
+#colorlib-aside .colorlib-footer ul {
+  padding: 0 20px;
+  margin: 0 0 10px 0; 
+}
+#colorlib-aside .colorlib-footer ul li {
+  padding: 0 20px;
+  margin: 0 0 10px 0;
+  display: inline;
+  list-style: none; 
+}
 #colorlib-aside .colorlib-footer h3 {
-    font-family:inherit;
-          padding: 4px; }
-#colorlib-aside .colorlib-footer h3 a
-{
-    color: #FF722C;
-    font-size: 18px;
+  font-family:inherit;
+  padding: 4px; 
+}
+#colorlib-aside .colorlib-footer h3 a{
+  color: #FF722C;
+  font-size: 18px;
 }
 #rcorners2 {
-    border-radius: 15px;
+  border-radius: 15px;
   background: black;
   padding: 20px; 
   width: 50%;
@@ -285,22 +294,25 @@ figure figcaption {
             text-decoration: none;
             outline: none;
             color: black; }
-
+*/
 .container-wrap {
   max-width: 1170px;
-  margin: 0 auto; }
-
+  margin: 0 auto; 
+}
 #colorlib-main {
   width: calc(100% - 300px);
   float: right;
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s; }
-  @media screen and (max-width: 768px) {
-    #colorlib-main {
-      width: 100%;
-      padding: 0 1em; } }
-
+ /* -webkit-transition: 0.5s;
+  -o-transition: 0.5s;*/
+  transition: 0.5s;
+}
+@media screen and (max-width: 768px) {
+  #colorlib-main {
+    width: 100%;
+    padding: 0 1em; 
+  } 
+}
+/*
 #colorlib-hero {
   min-height: 500px;
   background: #fff url(../images/loader.gif) no-repeat center center;
@@ -412,7 +424,7 @@ figure figcaption {
           @media screen and (max-width: 768px) {
             #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn {
               width: 100%; } }
-
+*/
 body.offcanvas {
   overflow-x: hidden; }
   body.offcanvas #colorlib-aside {
