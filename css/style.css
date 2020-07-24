@@ -23,6 +23,18 @@ body {
   margin-bottom:80px;
   font-size:30px;
 }
+.moreProjs .fa-plus{
+  color:black;
+}
+.fa-plus:hover{
+  transform: scale(1.65);
+}
+.fa-external-link{
+  color:black !important;
+}
+.fa-linkedin:hover, .fa-envelope:hover, .fa-github:hover, #colorlib-logo>a:hover, .fa-external-link:hover{
+  color: #2c98f0 !important;
+}
 canvas {
   background: #EEE;
   position: fixed;
