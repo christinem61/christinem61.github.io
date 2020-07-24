@@ -161,11 +161,11 @@ h3{
   margin-bottom: 30px;
   border-radius: 50%;
   border: 3px solid white;
-}/*
+}
 #colorlib-aside h1{
   color: #000;
   font-family: 'Raleway', sans-serif;
-}*/
+}
 #colorlib-aside .position {
   display: block;
   margin-bottom: 2em;
@@ -182,7 +182,10 @@ h3{
 }
 #colorlib-aside #colorlib-logo a {
     display: block !important;
-    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: .5em;
+    width: 100%; 
     text-align: center;
     color: #000;
     padding-right: .3em;
@@ -190,10 +193,10 @@ h3{
 #colorlib-aside #colorlib-main-menu {
   display: block;
   width: 100%; 
-}/*
+}
 #colorlib-aside #colorlib-main-menu .collapse {
   display: block !important; 
-}*/
+}
 #colorlib-aside #colorlib-main-menu ul {
   text-align: center;
   margin: 0;
