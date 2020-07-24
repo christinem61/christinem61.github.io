@@ -80,6 +80,8 @@ h3{
   overflow: hidden;
   position: relative;
 }
+
+/**********   Side Bar/Nav Bar   **********/
 #colorlib-aside {
   padding-top: 3em;
   padding-bottom: 1px;
@@ -93,10 +95,6 @@ h3{
 @media screen and (max-width: 768px) {
   #colorlib-aside {
     width: 300px;
-    /*  -moz-transform: translateX(-300px);
-      -webkit-transform: translateX(-300px);
-      -ms-transform: translateX(-300px);
-      -o-transform: translateX(-300px);*/
     transform: translateX(-300px);
     padding-top: 4em;
 	  background-color: #FFCDC0;                                                /**************/
@@ -253,7 +251,6 @@ body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
   background-repeat: no-repeat;
   position: relative; 
 }
-
 .about-desc h1 {
   font-size: 38px;
   font-weight: 400;
@@ -267,7 +264,7 @@ body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
   line-height: 1.5;
 }
 
-
+/********** Timeline of Events **********/
 .timeline-centered {
   position: relative;
   margin-bottom: 30px; 
@@ -365,6 +362,7 @@ body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
   filter: alpha(opacity=40);
   font-size: 16px;
 }
+/**********   Project Cards   **********/
 .services {
   margin-bottom: 30px;
   padding: 1.5em;
@@ -473,32 +471,45 @@ body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
 .services.color-2 .icon:before {
   border-color: transparent transparent #ec5453 transparent; 
 }
-    .services.color-2 .icon:after {
-      border-color: #ec5453 transparent transparent transparent; }
-  .services.color-3 .icon {
-    background: #f9bf3f; }
-    .services.color-3 .icon:before {
-      border-color: transparent transparent #f9bf3f transparent; }
-    .services.color-3 .icon:after {
-      border-color: #f9bf3f transparent transparent transparent; }
-  .services.color-4 .icon {
-    background: #a84cb8; }
-    .services.color-4 .icon:before {
-      border-color: transparent transparent #a84cb8 transparent; }
-    .services.color-4 .icon:after {
-      border-color: #a84cb8 transparent transparent transparent; }
-  .services.color-5 .icon {
-    background: #2fa499; }
-    .services.color-5 .icon:before {
-      border-color: transparent transparent #2fa499 transparent; }
-    .services.color-5 .icon:after {
-      border-color: #2fa499 transparent transparent transparent; }
-  .services.color-6 .icon {
-    background: #4054b2; }
-    .services.color-6 .icon:before {
-      border-color: transparent transparent #4054b2 transparent; }
-    .services.color-6 .icon:after {
-      border-color: #4054b2 transparent transparent transparent; }
+.services.color-2 .icon:after {
+  border-color: #ec5453 transparent transparent transparent; 
+}
+.services.color-3 .icon {
+  background: #f9bf3f; 
+}
+.services.color-3 .icon:before {
+  border-color: transparent transparent #f9bf3f transparent; 
+}
+.services.color-3 .icon:after {
+  border-color: #f9bf3f transparent transparent transparent; 
+}
+.services.color-4 .icon {
+  background: #a84cb8; 
+}
+.services.color-4 .icon:before {
+  border-color: transparent transparent #a84cb8 transparent; 
+}
+.services.color-4 .icon:after {
+  border-color: #a84cb8 transparent transparent transparent; 
+}
+.services.color-5 .icon {
+  background: #2fa499; 
+}
+.services.color-5 .icon:before {
+  border-color: transparent transparent #2fa499 transparent; 
+}
+.services.color-5 .icon:after {
+  border-color: #2fa499 transparent transparent transparent; 
+}
+.services.color-6 .icon {
+  background: #4054b2; 
+}
+.services.color-6 .icon:before {
+  border-color: transparent transparent #4054b2 transparent; 
+}
+.services.color-6 .icon:after {
+  border-color: #4054b2 transparent transparent transparent; 
+}
 
 /**********    Skills    **********/
 .progress-wrap h3 {
