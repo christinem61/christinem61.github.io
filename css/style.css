@@ -22,12 +22,12 @@ canvas {
   top: 0;
   left: 0;
 }}
-canvas {
+/*canvas {
   background: #EEE;
   position: fixed;
   top: 0;
   left: 0;
-}
+}*/
 a {
   color: #2c98f0;
   -webkit-transition: 0.5s;
@@ -47,12 +47,13 @@ p {
     color: black;
     font-family: 'Montserrat', sans-serif;
 }
+/*
 x{
     margin-bottom: 1.5em;
     background-color:darkkhaki;
     color: black;
     backface-visibility: visible;
-}
+}*/
 
 h1, h4, h5, h6 {
   color: #000;
