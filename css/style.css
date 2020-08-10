@@ -467,7 +467,7 @@ body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
   color: #2fa499; 
 }
 .services {
-  margin-bottom: 20px; /***/
+  margin-bottom: 20px; 
   position: relative;
   z-index: 0; 
 }
