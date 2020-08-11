@@ -26,8 +26,10 @@ body {
 .moreProjs .fa-plus{
   color:black;
 }
-#proj{
+#projdiv{
   text-align: center;
+}
+#proj{
   margin: 0 0 10px 0;
   font-size: 12px;
   font-weight: 500;
@@ -235,7 +237,7 @@ h3{
     margin: 0 0 2em 0; 
   } 
 }
-#colorlib-aside #colorlib-main-menu ul li, #proj {
+#colorlib-aside #colorlib-main-menu ul li{
   margin: 0 0 10px 0;
   padding: 0;
   list-style: none;
@@ -244,7 +246,7 @@ h3{
   text-transform: uppercase;
   letter-spacing: 1px; 
 }
-#colorlib-aside #colorlib-main-menu ul li a, #proj {
+#colorlib-aside #colorlib-main-menu ul li a {
   color: rgba(0, 0, 0, 0.7);
   text-decoration: none;
   position: relative;
@@ -264,18 +266,18 @@ h3{
   transform: scaleX(0);
   transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275); 
 }
-#colorlib-aside #colorlib-main-menu ul li a:hover, #proj {
+#colorlib-aside #colorlib-main-menu ul li a:hover {
   text-decoration: none;
   color: black; 
 }
-#colorlib-aside #colorlib-main-menu ul li a:hover:after, #proj {
+#colorlib-aside #colorlib-main-menu ul li a:hover:after {
   visibility: visible;
   transform: scaleX(1); 
 }
-#colorlib-aside #colorlib-main-menu ul li.active a, #proj {
+#colorlib-aside #colorlib-main-menu ul li.active a {
   color: #2c98f0;
 }
-#colorlib-aside #colorlib-main-menu ul li.active a:after, #proj {
+#colorlib-aside #colorlib-main-menu ul li.active a:after {
   visibility: visible;
   transform: scaleX(1); 
 }
