@@ -258,6 +258,7 @@ h3{
 }
 #navbar{
   margin-bottom:0px;
+  padding-bottom: 0px;
 }
 #colorlib-aside #colorlib-main-menu ul li a:hover, #proj:hover{
   text-decoration: none;
