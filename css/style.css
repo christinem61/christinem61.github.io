@@ -38,10 +38,10 @@ body {
   padding: 8px 0;
   font-family: "Quicksand";
   transition: 0.3s;
-  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275); 
 }
 #proj:hover{ 
-  visibility: visible;
+  text-decoration: none;
+  color: black; 
 }
 .fa-plus:hover, .fa-external-link:hover{
   transform: scale(1.65);
