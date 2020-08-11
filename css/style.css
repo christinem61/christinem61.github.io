@@ -25,7 +25,7 @@ body {
 }
 .moreProjs .fa-plus{
   color:black;
-}
+}/*
 #proj{
   text-align: center;
   margin: 0 0 10px 0;
@@ -33,12 +33,10 @@ body {
   font-weight: 500;
   letter-spacing: 1px;
   color: rgba(0, 0, 0, 0.7);
-  text-decoration: none;
-  position: relative;
   padding: 10px 0;
   font-family: "Quicksand";
   transition: 0.3s;
-}
+}*/
 .fa-plus:hover, .fa-external-link:hover{
   transform: scale(1.65);
   color: #2c98f0 !important;
@@ -237,7 +235,7 @@ h3{
     margin: 0 0 2em 0; 
   } 
 }
-#colorlib-aside #colorlib-main-menu ul li {
+#colorlib-aside #colorlib-main-menu ul li, #proj {
   margin: 0 0 10px 0;
   padding: 0;
   list-style: none;
@@ -246,7 +244,7 @@ h3{
   text-transform: uppercase;
   letter-spacing: 1px; 
 }
-#colorlib-aside #colorlib-main-menu ul li a {
+#colorlib-aside #colorlib-main-menu ul li a, #proj {
   color: rgba(0, 0, 0, 0.7);
   text-decoration: none;
   position: relative;
@@ -254,7 +252,7 @@ h3{
   font-family: "Quicksand", Arial, sans-serif;
   transition: 0.3s;
 }
-#colorlib-aside #colorlib-main-menu ul li a:after {
+#colorlib-aside #colorlib-main-menu ul li a:after, #proj {
   content: "";
   position: absolute;
   height: 1px;
@@ -266,18 +264,18 @@ h3{
   transform: scaleX(0);
   transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275); 
 }
-#colorlib-aside #colorlib-main-menu ul li a:hover {
+#colorlib-aside #colorlib-main-menu ul li a:hover, #proj {
   text-decoration: none;
   color: black; 
 }
-#colorlib-aside #colorlib-main-menu ul li a:hover:after {
+#colorlib-aside #colorlib-main-menu ul li a:hover:after, #proj {
   visibility: visible;
   transform: scaleX(1); 
 }
-#colorlib-aside #colorlib-main-menu ul li.active a {
+#colorlib-aside #colorlib-main-menu ul li.active a, #proj {
   color: #2c98f0;
 }
-#colorlib-aside #colorlib-main-menu ul li.active a:after {
+#colorlib-aside #colorlib-main-menu ul li.active a:after, #proj {
   visibility: visible;
   transform: scaleX(1); 
 }
