@@ -28,7 +28,7 @@ body {
 }
 #projdiv{
   text-align: center;
-}
+}/*
 #proj{
   margin: 0;
   font-size: 12px;
@@ -38,7 +38,7 @@ body {
   padding: 2px 0;
   font-family: "Quicksand";
   transition: 0.3s;
-}
+}*/
 .fa-plus:hover, .fa-external-link:hover{
   transform: scale(1.65);
   color: #2c98f0 !important;
@@ -237,7 +237,7 @@ h3{
     margin: 0 0 2em 0; 
   } 
 }
-#colorlib-aside #colorlib-main-menu ul li{
+#colorlib-aside #colorlib-main-menu ul li, #proj{
   margin: 0 0 10px 0;
   padding: 0;
   list-style: none;
@@ -246,15 +246,15 @@ h3{
   text-transform: uppercase;
   letter-spacing: 1px; 
 }
-#colorlib-aside #colorlib-main-menu ul li a {
+#colorlib-aside #colorlib-main-menu ul li a , #proj{
   color: rgba(0, 0, 0, 0.7);
   text-decoration: none;
   position: relative;
   padding: 10px 0;
-  font-family: "Quicksand", Arial, sans-serif;
+  font-family: "Quicksand", Arial;
   transition: 0.3s;
 }
-#colorlib-aside #colorlib-main-menu ul li a:after {
+#colorlib-aside #colorlib-main-menu ul li a:after, #proj:after {
   content: "";
   position: absolute;
   height: 1px;
