@@ -252,7 +252,7 @@ h3{
   font-family: "Quicksand", Arial, sans-serif;
   transition: 0.3s;
 }
-#colorlib-aside #colorlib-main-menu ul li a:after, #proj {
+#colorlib-aside #colorlib-main-menu ul li a:after {
   content: "";
   position: absolute;
   height: 1px;
