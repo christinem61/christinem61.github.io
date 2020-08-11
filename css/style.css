@@ -26,6 +26,19 @@ body {
 .moreProjs .fa-plus{
   color:black;
 }
+#proj{
+  text-align: center;
+  margin: 0 0 10px 0;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: rgba(0, 0, 0, 0.7);
+  text-decoration: none;
+  position: relative;
+  padding: 10px 0;
+  font-family: "Quicksand";
+  transition: 0.3s;
+}
 .fa-plus:hover, .fa-external-link:hover{
   transform: scale(1.65);
   color: #2c98f0 !important;
