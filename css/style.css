@@ -27,8 +27,6 @@ body {
   color:black;
 }
 #projdiv{
-  padding-top:0px;
-  margin-top: 0px;
   text-align: center;
 }
 .fa-plus:hover, .fa-external-link:hover{
@@ -257,10 +255,6 @@ h3{
   visibility: hidden;
   transform: scaleX(0);
   transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275); 
-}
-#tmp{
-  margin-bottom:0px;
-  padding-bottom: 0px;
 }
 #colorlib-aside #colorlib-main-menu ul li a:hover, #proj:hover{
   text-decoration: none;
