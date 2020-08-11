@@ -35,9 +35,10 @@ body {
   font-weight: 500;
   letter-spacing: 1px;
   color: rgba(0, 0, 0, 0.7);
-  padding: 10px 0;
+  padding: 8px 0;
   font-family: "Quicksand";
   transition: 0.3s;
+  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275); 
 }
 .fa-plus:hover, .fa-external-link:hover{
   transform: scale(1.65);
