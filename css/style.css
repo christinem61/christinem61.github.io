@@ -28,17 +28,11 @@ body {
 }
 #projdiv{
   text-align: center;
-}/*
+}
 #proj{
-  margin: 0;
-  font-size: 12px;
-  font-weight: 500;
-  letter-spacing: 1px;
-  color: rgba(0, 0, 0, 0.7);
-  padding: 2px 0;
-  font-family: "Quicksand";
-  transition: 0.3s;
-}*/
+  margin-top: 0px;
+  padding-top: 0px;
+}
 .fa-plus:hover, .fa-external-link:hover{
   transform: scale(1.65);
   color: #2c98f0 !important;
