@@ -40,6 +40,9 @@ body {
   transition: 0.3s;
   transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275); 
 }
+#proj:hover{ 
+  visibility: visible;
+}
 .fa-plus:hover, .fa-external-link:hover{
   transform: scale(1.65);
   color: #2c98f0 !important;
